@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    color: #333;
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+}
+.navbar h2 {
+    color: #f1356d;
+}
+.navbar a{
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 18px;
+    
+}
+.navbar a:hover {
+    color: #f1356d;
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+}
+
+.university-list h2{
+    text-align: center;
+}
+.all-university{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.varsity{
+    background-color: rgb(248, 216, 216);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+.varsity a{
+    text-decoration: none;
+    color: #333;
+}
+.varsity a:hover{
+    color: #f1356d;
+}
+
